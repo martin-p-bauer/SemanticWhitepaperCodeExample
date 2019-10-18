@@ -86,7 +86,7 @@ public void getMeasurements () {
     List<Map<String, Object>> qryResult;
     String sparqlQuery = "PREFIX rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> "
                 + "PREFIX s4ener: <https://saref.etsi.org/saref4ener##> "
- + "PREFIX saref: <https://saref.etsi.org/saref#> "
+                + "PREFIX saref: <https://saref.etsi.org/saref#> "
                 + "SELECT ?x ?y ?m ?a ?b "
                 + "WHERE {"
                 + " ?x rdf:type s4ener:PowerProfile . "

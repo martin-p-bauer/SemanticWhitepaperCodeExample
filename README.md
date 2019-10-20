@@ -109,7 +109,7 @@ public void getMeasurements () {
 }
 ```
 
-The output of invoking the method `getMeasurements` with the instances in the file [example.ttl](https://raw.githubusercontent.com/martin-p-bauer/SemanticWhitepaperCodeExample/master/example.ttll) are shown below.
+The output of invoking the method `getMeasurements` with the instances in the file [example.ttl](https://raw.githubusercontent.com/martin-p-bauer/SemanticWhitepaperCodeExample/master/example.ttl) are shown below.
 
 ```
 s4ener:PowerProfile-1-HS0001

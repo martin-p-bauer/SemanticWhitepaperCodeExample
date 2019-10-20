@@ -7,7 +7,7 @@ As explained in the whitepaper, the semantic information needs to be stored in a
 
 The power profile instantiation example uses the S4ENER extension of SAREF ontology. Firstly, these models are stored within the triple store and the dataset is named (e.g., the dataset name is `energyds` and the dataset URI is `http://localhost:3030/energyds`). `localhost` is used here for our small example - for any real system a dereferenceable and reachable URI should be used.
 
-To add a model to the dataset, the path file or URL and the RDF I/O technology (RIOT) are provided, e.g. Turtle, RDF/XML, etc. as shown below. The loadEnergyExample method shows how to add SAREF4ENER, SAREF and the power profile instantiation to the dataset. The file [example.ttl](https://github.com/martin-p-bauer/SemanticWhitepaperCodeExample/example.ttl) contains the RDF code for the power profile. SAREF4ENER is in Turtle format whereas SAREF is in RDF/XML format. 
+To add a model to the dataset, the path file or URL and the RDF I/O technology (RIOT) are provided, e.g. Turtle, RDF/XML, etc. as shown below. The loadEnergyExample method shows how to add SAREF4ENER, SAREF and the power profile instantiation to the dataset. The file [example.ttl](https://raw.githubusercontent.com/martin-p-bauer/SemanticWhitepaperCodeExample/master/example.ttl) contains the RDF code for the power profile. SAREF4ENER is in Turtle format whereas SAREF is in RDF/XML format. 
 
 ```java
 import org.apache.jena.query.*;
@@ -109,7 +109,7 @@ public void getMeasurements () {
 }
 ```
 
-The output of invoking the method `getMeasurements` with the instances in the file [example.ttl](https://github.com/martin-p-bauer/SemanticWhitepaperCodeExample/example.ttl) are shown below.
+The output of invoking the method `getMeasurements` with the instances in the file [example.ttl](https://raw.githubusercontent.com/martin-p-bauer/SemanticWhitepaperCodeExample/master/example.ttll) are shown below.
 
 ```
 s4ener:PowerProfile-1-HS0001

@@ -1,5 +1,5 @@
 # Semantic Whitepaper Code Example
-This project provides the code example for the Whitepaper *Semantic IoT Solutions - A Developer Perspective*
+This project provides the code example for the Whitepaper *Semantic IoT Solutions - A Developer Perspective* under [DOI 10.13140/RG.2.2.16339.53286](http://dx.doi.org/10.13140/RG.2.2.16339.53286).
 
 In this section we provide an example written in Java on how to use the semantic information from an application. This does not mean that Java is the only or best language to use for programming semantic systems; Python could have been used just as well or another programming language of your choice.
 
